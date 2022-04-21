@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;500;700&display=swap");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body {
+	background: #E7E1D6;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(30;30;30);	
+}
+
+h1 {
+	color: #A39D91;
+	font-family: 'Parisienne', cursive;
+	font-weight: 800;
+	letter-spacing: 10px;
+	font-size: 32px;
+}
+
+h2 {
+	font-weight: medium;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(30;30;30);
+}
+
+a:hover {
+	color: rgb(0, 129, 64);
+}
+
+
+.box-beige {
+	background-color: #E7E1D6;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#logo {
+	border-radius: 100%;
+	height: 50px:
+	width: 50px;
+}
+
+#valérie {
+	border-radius: 50%;
+	height: 220px;
+	width: 200px;
+}
+
+#log {
+	height: 120px;
+	width: 120px;
+}
+
+#def {
+	height: 600px;
+	width: 600px;
+	position: center;
+}
+
+
+.icon-green {
+	font-size: 50px;
+	color: #4CBB17;
+}
+
+.icon-green:hover {
+	color: rgb(0, 129, 64);
+}
